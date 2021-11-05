@@ -1,8 +1,10 @@
+import Player from "./components/Player";
+import tracks from "./tracks";
 
 function App() {
   return (
     <>
-      Hi
+      <Player songs={tracks} />
     </>
   );
 }
